@@ -70,10 +70,4 @@ to better manage the running application
 from auto-scaling to alerting, service re-starts, etc
    
 
-### Final note
 
-I have made some
-conscious decisions about naming and code organization which I will be happy to talk about. 
-
-PS.: I can already think about some refactoring tasks here and there.  
-But, let's iterate :)
