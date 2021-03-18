@@ -1,18 +1,18 @@
-# Appointments Sesame Service
+# Appointments Service Spring Boot Demo Service
 
 ____
 
 The appointments service is responsible for requesting the
 appointments external service(https://us-central1-sesame-care-dev.cloudfunctions.net/sesame_programming_test_api) for reading appointments from doctors and
 locations. The main responsibility is transforming the appointments
-in an internal API for use by Sesame service API contract applying validation and 
+in an internal API for use by the client service API contract applying validation and 
 cleaning steps to the data, plus collecting and 
 listing errors from the appointment 3rd party provider.
 
 ### Rest Endpoint
 
 The service offers the following API to retrieve appointments in the expected
-Sesame contract:
+ contract:
 
 ``http://localhost:8080/appointments``
 
